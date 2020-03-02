@@ -3,7 +3,6 @@ from django.shortcuts import render, HttpResponse
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt, csrf_protect
 from django.utils.decorators import method_decorator
-from rest_framework.authentication import BaseAuthentication
 
 
 # FBV
